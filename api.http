@@ -10,3 +10,9 @@ Content-Type: application/json
   "image_url": "https://player.vimeo.com/video/918456480",
   "price": 100
 }
+{
+  "name": "Produto 2",
+  "description": "Descrição do produto 1",
+  "image_url": "https://player.vimeo.com/video/918456480",
+  "price": 100
+}
