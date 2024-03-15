@@ -1,3 +1,4 @@
+
 GET http://localhost:3333/products
 
 ###
@@ -16,3 +17,24 @@ Content-Type: application/json
   "image_url": "https://player.vimeo.com/video/918456480",
   "price": 100
 }
+
+###
+GET http://localhost:3333/orders
+
+### 
+POST http://localhost:3333/orders
+Content-Type: application/json 
+
+{
+  "items": [
+    {
+      "product_id": "12af6419-d7b8-4a86-8090-943d7f43e73a",
+      "quantity": 1
+    },
+    {
+      "product_id": "17e67261-120e-4399-aac4-efc8dc4c5254",
+      "quantity": 1
+    }],
+  "card_hash": "1234"
+}
+
